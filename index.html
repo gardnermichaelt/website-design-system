@@ -9,17 +9,18 @@
 
     <body>
         <header>
-            <h1>Website Style Guide</h1>
+            <h1 id="actual-header">Website Style Guide</h1>
         </header>
         <nav>
-            <ul>
+            <ul id="nav">
+                <li><a href="#paragraphs">Paragraphs</a></li>
                 <li><a href="#colors">Colors</a></li>
                 <li><a href="#fonts">Fonts</a></li>
                 <li><a href="#text-styles">Text Styles</a></li>
             </ul>
         </nav>
         <main>
-            <h2 class="paragraphs">Paragraphs</h2>
+            <h2 class="sub-headings" id="paragraphs">Paragraphs</h2>
             <p class="location-date">Paris<br>February 17, 1903</p>
             <p class="paragraph-main">Dear Sir, Your letter arrived just a few days ago. I want to thank you for the great confidence you have placed in me. That is all I can do. I cannot discuss your verses; for any attempt at criticism would be foreign to me. Nothing touches a work of art so little as words of criticism: they always result in more or less fortunate misunderstandings. Things aren't all so tangible and sayable as people would usually have us believe; most experiences are unsayable, they happen in a space that no word has ever entered, and more unsayable than all other things are works of art, those mysterious existences, who life endures beside our own small, transitory life.
             </p>
@@ -30,21 +31,74 @@
             <p class="paragraph-main">You ask whether your verses are any good. You ask me. You have asked others before this. You send them to magazines. You compare them with other poems, and you are upset when certain editors reject your work. Now (since you have said you want my advice) I beg you to stop doing that sort of thing. You are looking outside, and that is what you should most avoid right now. No one can advise you or help you—no one. There is only one thing you should do. Go into yourself. Find out the reason that commands you to write; see whether it has spread its root into the very depths of your heart; confess to yourself whether you would have to die if you were forbidden to write. This most of all: ask yourself in the most silent hour of your night: must I write? Dig into yourself for a deep answer. And is this answer rings out in assent, if you meet this solemn question with a strong, simple "I must," then build your life in accordance with this necessity; your whole life, even into its humblest and most indifferent hour, must become a sign and witness to this impulse.
             </p>
 
-            <p>Rainer Maria Rilke</p>
-            <h2 id="colors">Colors</h2>
-                <figure class="swatch">
-                    <p id="blue">#404259</p>
-                    <p id="dark">#171926</p>
-                    <p id="tan">#D9A273</p>
-                    <p id="burnt-sienna">#BF8360</p>
-                    <p id="sea-green">#B9BFB0</p>
-                </figure>
-            <h2 id="fonts">Fonts</h2>
-                <figure>
-                    <p id='bebas-neue'>Bebas Neue</p>
-                </figure>
-            <h2 id="text-styles">Text Styles</h2>
+            <p class="paragraph-main">Rainer Maria Rilke</p>
+
+
+            <h2 class="sub-headings" id="colors">Colors</h2>
+                <ul id="color-list">
+                    <li class="swatch" id="blue">#404259</li>
+                    <li class="swatch" id="dark">#171926</li>
+                    <li class="swatch" id="tan">#D9A273</li>
+                    <li class="swatch" id="burnt-sienna">#BF8360</li>
+                    <li class="swatch" id="sea-green">#B9BFB0</li>
+                </ul>
+            <h2 class="sub-headings" id="fonts">Fonts</h2>
+                <ul id="font-list">
+                    <li><h3 class="bebas-neue">Bebas Neue</h3>
+                        <p class="bebas-neue">Things aren't all so tangible and sayable as people would usually have us believe; most experiences are unsayable, they happen in a space that no word has ever entered, and more unsayable than all other things are works of art, those mysterious existences, who life endures beside our own small, transitory life.</p>
+                        <p class="bebas-neue"><strong>Things aren't all so tangible and sayable as people would usually have us believe; most experiences are unsayable, they happen in a space that no word has ever entered, and more unsayable than all other things are works of art, those mysterious existences, who life endures beside our own small, transitory life.</strong></p>
+                        <p class="bebas-neue"><em>Things aren't all so tangible and sayable as people would usually have us believe; most experiences are unsayable, they happen in a space that no word has ever entered, and more unsayable than all other things are works of art, those mysterious existences, who life endures beside our own small, transitory life.</em></p>
+                    </li>
+
+                    <li><h3 class="playfair-display">Playfair Display</h3>
+                        <p class="playfair-display">Things aren't all so tangible and sayable as people would usually have us believe; most experiences are unsayable, they happen in a space that no word has ever entered, and more unsayable than all other things are works of art, those mysterious existences, who life endures beside our own small, transitory life.</p>
+                        <p class="playfair-display"><strong>Things aren't all so tangible and sayable as people would usually have us believe; most experiences are unsayable, they happen in a space that no word has ever entered, and more unsayable than all other things are works of art, those mysterious existences, who life endures beside our own small, transitory life.</strong></p>
+                        <p class="playfair-display"><em>Things aren't all so tangible and sayable as people would usually have us believe; most experiences are unsayable, they happen in a space that no word has ever entered, and more unsayable than all other things are works of art, those mysterious existences, who life endures beside our own small, transitory life.</em></p>
+                    </li>
+                    <li><h3 class="abhaya-libre">Abhaya Libre</h3></li>
+                        <p class="abhaya-libre">Things aren't all so tangible and sayable as people would usually have us believe; most experiences are unsayable, they happen in a space that no word has ever entered, and more unsayable than all other things are works of art, those mysterious existences, who life endures beside our own small, transitory life.</p>
+                        <p class="abhaya-libre"><strong>Things aren't all so tangible and sayable as people would usually have us believe; most experiences are unsayable, they happen in a space that no word has ever entered, and more unsayable than all other things are works of art, those mysterious existences, who life endures beside our own small, transitory life.</strong></p>
+                        <p class="abhaya-libre"><em>Things aren't all so tangible and sayable as people would usually have us believe; most experiences are unsayable, they happen in a space that no word has ever entered, and more unsayable than all other things are works of art, those mysterious existences, who life endures beside our own small, transitory life.</em></p>
+                </ul>
+            <h2 class="sub-headings" id="text-styles">Text Styles</h2>
+                <ul class="text-styles">
+                    <li><h1>H1: Main Page Headings</h1>
+                    <ul>
+                        <li>font-weight: normal</li>
+                        <li>font-size: 72px</li>
+                        <li>font-family: Bebas Neue</li>
+                    </ul>
+                    </li>
+
+                    <li><h2>H2: Subheadings</h2>
+                    <ul>
+                        <li>font-weight: lighter</li>
+                        <li>font-size: 48px</li>
+                        <li>font-family: Bebas Neue</li>
+                    </ul>
+                    </li>
+
+                    <li><h3>H3: Subheadings</h3>
+                        <ul>
+                            <li>font-weight: bold</li>
+                            <li>font-size: 24px</li>
+                            <li>font-family: Abhaya Libre</li>
+                        </ul>
+                        </li>
+
+                    <li><p>P: Paragraph Text</p>
+                    <ul>
+                        <li>font-weight: normal</li>
+                        <li>font-size: 18px</li>
+                        <li>font-family: Playfair Display</li>
+                        <li>line-height: 1.5</li>
+                    </ul>
+                    </li>
+                </ul>
         </main>
+        <footer>
+            
+        </footer>
     </body>
 
     <foot>

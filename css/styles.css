@@ -1,131 +1,176 @@
 
-
 * {
     box-sizing: border-box;
 }
 
-header {
-    background-color: #404259;
-    padding-bottom: 22px;
-    padding-top:21px;
-    margin: 0px;
+body {
+    background: linear-gradient(black, #171926 );
+    color: aliceblue;
 }
 
 h1 {
-    font-size: 100px;
-    text-align: left;
-    margin: 45px;
+    font-weight: normal;
+    font-size: 72px;
+    font-family: "bebas neue";
+    margin: 20;
 }
 
 h2 {
-    background-color: #D9A273;
-    padding-top: 9px;
-    padding-bottom: 11px;
-    padding-right: auto;
-    padding-left: auto;
-    font-family: 'Bebas Neue';
-    font-size: 33px;
-    font-weight: 500;
-    letter-spacing: 3px;
-    text-align: center;
-    margin: 0 auto;
-    
+    font-weight: lighter;
+    font-size: 48px;
+    font-family: "bebas neue";
+    color: aliceblue;
+    margin:15;
 }
 
-nav ul {
-    display: block;
-    background-color: #171926;
-    width: 100%;
-    
-    height: 99px;
-    font-family: 'Bebas Neue';
-    font-weight: 300;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 22;
-    margin: 0 auto;
-    
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "abhaya libre";
+    color: #B9BFB0;
+    margin: 10;
 }
 
-a {
-    text-decoration: none;
-}
-
-a:link {
-    color: white;
-}
-
-a:visited {
-    color: white;
-}
-
-a:hover {
-    color: #404259;
-}
-
-body {
-    text-align: center;
-    background-color:black;
-    color: white;
-    font-family: "Bebas Neue";
+.sub-headings {
+    background-color: #BF8360;
 }
 
 p {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 19px;
-    line-height: 23px;
-    letter-spacing: 2px;
-    font-family: "Playfair Display";
-    font-size: 19px;
-    font-weight: 100;
-    text-align: left;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: "playfair display";
+    color: aliceblue;
+    line-height: 1.5;
+    letter-spacing: 1.1px;
+}
+
+nav, nav ul {
+    text-align: center;
+    background-color: #171926;
+    margin: 0;
+    width: auto;
+    padding: 12px;   
+}
+
+#nav li {
+    display: inline-block;
+    text-align: center;
+}
+
+nav a {
+    color: aliceblue;
+    margin: 24px;
+    font-family: "bebas neue";
+    font-size: 24px;
+}
+
+#actual-header {
+    padding: 48px;
+    width: auto;
+    bottom: 0;
+    margin: 0;
+    background-color: #404259;
+    color: aliceblue;
 }
 
 .location-date {
-    font-family: 'Abhaya Libre';
-    
-    font-weight: bolder;
-    font-size: 25px;
+    margin: 25px auto;
+    max-width: 500px;
+    min-width: 400px;
     color: #B9BFB0;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-li {
+.paragraph-main {
+    margin: 25px auto;
+    max-width: 500px;
+    min-width: 400px;
+}
+
+.swatch {
+    border: solid lightgray 2px;
     display: inline-block;
-    width: 333px;
-    height: auto;
-    font-size: 44px;
+    width: 300px;
+    height: 150px;
+    margin: 12px;
+    padding-top: 55px;
+    font-size: 36px;
+    font-family: "bebas neue";
+    letter-spacing: 2px;
+    color: white;
+}
+
+.sub-headings {
+    margin: 0;
+    padding-left: 60px;
+    text-align: left;
 }
 
 
-.swatch p {
-    border: solid lightgrey 2px;  
-    display: inline-block;
-    margin: 22px;
-    padding: 22px 44px 27px 44px;
+
+#font-list {
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+}
+
+#color-list {
+    text-align: center;
+    margin: 24px auto;
 }
 
 #blue {
     background-color: #404259;
-    color: #B9BFB0;
+    
 }
 
 #dark {
-    background-color:#171926;
-    color: #D9A273;
-}
-
-#sea-green {
-    background-color: #B9BFB0;
-    color: #171926;
+    background-color: #171926;
+     
 }
 
 #tan {
     background-color: #D9A273;
+    
 }
 
 #burnt-sienna {
     background-color: #BF8360;
-    color: #404259;
+    
 }
+
+#sea-green {
+    background-color: #B9BFB0;
+    
+}
+
+.font-heading {
+    
+}
+
+.bebas-neue {
+    font-family: "bebas neue";
+    text-align: left;
+}
+
+
+.playfair-display {
+    font-family: "playfair display";
+    text-align: left;
+}
+
+.abhaya-libre {
+    font-family: "abhaya libre";
+    text-align: left;
+}
+
+
+
+footer {
+    font-family: "bebas neue";
+    height: 60px;
+    background-color: #404259;
+    text-align: right;
+}
+
